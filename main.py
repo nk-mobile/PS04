@@ -19,7 +19,7 @@ def print_paragraphs():
     for i, paragraph in enumerate(paragraphs):
         print(f"Параграф {i + 1}:")
         print(paragraph.text)
-        user_input = input("Нажмите Enter для следующего параграфа или Esc для выхода: ")
+        user_input = input("Нажмите Enter для следующего параграфа или 1 для выхода: ")
         if user_input.lower() == '1':
             break
 
