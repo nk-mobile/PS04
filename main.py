@@ -50,7 +50,7 @@ def choose_linked_page():
 try:
     # 1. Ввод первоначального запроса пользователя
     query = input("Введите запрос для поиска на Wikipedia: ")
-    driver.get("https://en.wikipedia.org/wiki/")
+    driver.get("https://ru.wikipedia.org/wiki/")
     search_box = driver.find_element(By.ID, "searchInput")
     search_box.send_keys(query)
     search_box.send_keys(Keys.RETURN)
